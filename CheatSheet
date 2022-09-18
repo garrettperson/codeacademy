@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Selectors</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>CSS Selectors</h1>
+        <h2>
+    The following are a few common types of CSS Selectors</h2>
+    </header>
+    
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Type of Selector</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Type, Class, & ID Selectors</td>
+                    <td>These selectors can target an HTML element such as &lt;h1&gt; via <span>h1 { }</span>, or these selectors may target a class (ex: <span>.box { }</span>), or they may target an ID (ex: <span>#unique { }</span>). </td>
+                </tr>
+                <tr>
+                    <td>Attribute Selectors</td>
+                    <td>These selectors allow one to select different elements based on the presence of a certain attribute, for ex: <span>a[title] { }</span> . These selectors can also select based on the presence of an attribute with a particular value, for ex: <span>a[href="https://example.com"] { }</span> . </td>
+                </tr>
+                <tr>
+                    <td>Pseudo-classes</td>
+                    <td>Pseudo-classes style certain states of an element, for ex: <span>a:hover { }</span> selects an element only when it is being hovered over by the mouse pointer. .</td>
+                </tr>
+                <tr>
+                    <td>Pseudo-elements</td>
+                    <td>Pseudo-elements select a certain part of an element rather than the element itself, for ex: <span>p::first-line { }</span>
+selects the first line of text of a &gt;p&gt; element. It acts as if a &lt;span&gt; was wrapped around the first formatted line and then selected.</td>
+                </tr>
+                <tr>
+                    <td>Combinators</td>
+                    <td>This group of selectors combine other selectors in order to target elements within our documents, for ex: <span>article &gt; p { }</span>  selects paragraphs that are direct children of &lt;article&gt; elements using the child combinator (&gt;).
+</td>
+                </tr>
+            </tbody>
+        
+        </table>
+    
+    </div>
+</body>
+</html>
